@@ -11,14 +11,14 @@ A powerful **AI-driven Todo Console App** built with **Node.js**, **Llama-3.3 LL
 
 ## 🎥 Demo
 
-Check out the demo video: [[Insert Demo Link Here](https://www.linkedin.com/posts/codexharoon_nodejs-ai-llm-activity-7302379208050171904-yx8E?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy)]
+Check out the demo video: [[Demo Video](https://www.linkedin.com/posts/codexharoon_nodejs-ai-llm-activity-7302379208050171904-yx8E?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy)]
 
 ## 🚀 Installation
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/codexharoon/ai_agent_todo.git
-   cd your-repo
+   cd ai_agent_todo
    ```
 
 2. **Install dependencies:**
