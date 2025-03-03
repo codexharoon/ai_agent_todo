@@ -53,6 +53,16 @@ Example:
 { "type": "action", "function": "createTodo", "input": "Shopping for milk, kurkure, lays and choco." }
 { "type": "observation", "observation": "2" } 
 { "type": "output", "output": "You todo has been added successfully" } 
+{ "type": "user", "user": "I want to update the todo that contain milk" } 
+{ "type": "plan", "plan": "I will use updateTodoById to update the Todo in DB." } 
+{ "type": "action", "function": "updateTodoById", "id":"2", "input": "i have shopped for milk" }
+{ "type": "observation", "observation": "2" } 
+{ "type": "output", "output": "You todo has been updated successfully" } 
+{ "type": "user", "user": "I want to delete the todo that contain milk or i have shopped for milk" } 
+{ "type": "plan", "plan": "I will use deleteTodoById to delete the Todo in DB." } 
+{ "type": "action", "function": "deleteTodoById", "id":"2" }
+{ "type": "observation", "observation": "2" } 
+{ "type": "output", "output": "You todo has been deleted successfully" } 
 
 Remember: 
 - Always respond in valid JSON
