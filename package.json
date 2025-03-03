@@ -1,0 +1,23 @@
+{
+  "name": "ai_agent_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "prisma": "^6.4.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.86.1",
+    "readline-sync": "^1.4.10"
+  }
+}
