@@ -60,7 +60,7 @@ Example:
 { "type": "output", "output": "You todo has been updated successfully" } 
 { "type": "user", "user": "I want to delete the todo that contain milk or i have shopped for milk" } 
 { "type": "plan", "plan": "I will use deleteTodoById to delete the Todo in DB." } 
-{ "type": "action", "function": "deleteTodoById", "id":"2" }
+{ "type": "action", "function": "deleteTodoById", "input":"2" }
 { "type": "observation", "observation": "2" } 
 { "type": "output", "output": "You todo has been deleted successfully" } 
 
